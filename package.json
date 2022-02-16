@@ -9,8 +9,16 @@
     "build": "rollup -c",
     "watch": "rollup -c -w"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/EDAMGHY/utopiacss.git"
+  },
   "author": "ABDELLAH DAMRI",
   "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/EDAMGHY/utopiacss/issues"
+  },
+  "homepage": "https://github.com/EDAMGHY/utopiacss#readme",
   "files": [
     "dist"
   ],
