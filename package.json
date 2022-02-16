@@ -1,0 +1,22 @@
+{
+  "name": "utopia",
+  "version": "1.0.0",
+  "description": "This is a test framework",
+  "module": "dist/utopia.esm.min.js",
+  "browser": "dist/utopia.umd.min.js",
+  "main": "dist/utopia.esm.min.js",
+  "scripts": {
+    "build": "rollup -c",
+    "watch": "rollup -c -w"
+  },
+  "author": "ABDELLAH DAMRI",
+  "license": "MIT",
+  "files": [
+    "dist"
+  ],
+  "devDependencies": {
+    "rollup": "^2.67.2",
+    "rollup-plugin-scss": "^3.0.0",
+    "rollup-plugin-terser": "^7.0.2"
+  }
+}

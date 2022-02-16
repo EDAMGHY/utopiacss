@@ -1,0 +1,27 @@
+.utopia-submenu-heading {
+  cursor: pointer;
+}
+ul.utopia {
+  list-style: none;
+}
+ul.utopia-submenu-items {
+  list-style: none;
+  border-left: 1px dashed black;
+  white-space: nowrap;
+  margin-right: 4px;
+  padding-left: 20px;
+}
+div.utopia-submenu-heading.collapsed:before {
+  content: '+';
+  margin-right: 4px;
+}
+div.utopia-submenu-heading.expanded:before {
+  content: '-';
+  margin-right: 4px;
+}
+
+.scrollable-menu {
+  height: auto;
+  max-width: 800px;
+  overflow-y: hidden;
+}
